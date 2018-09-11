@@ -16,30 +16,28 @@
  - Time complexities,
 - Scalability of our program,
 - few problem solving challenges,
-- Basics of DS and DBMS.
+- Basics of DataStructures and DataBaseManagement(DBMS).
 - Projects , Certificates.
 - Ideas in future
- - Different Technologies worked with.
+ - Different Technologies we worked with.
 
 **Management Round**
 - Based on Favourite Subject
 - DBMS schema for the given scenario.
- - Algortihms implemented  in project .	
+ - Algorithms implemented  in project .	
 	
 **HR Round**
 - Personal Interests.
 - Previous companies.
-- Why rejected prev companies
-- Stipend
+- What companies did you attend?
+- Stipend Details
 - Location constraints
 - Subject Details 
 - Availaibility and Personal Constraints. 
  	
 **Positives**
 - Challenging.
-- Swift Hiring process.
 - Logic is properely analyzed .
-- Gave chances to express ourselves .
 - Good Pre-Placement talks.
 - Making the students Comfortable.
  
@@ -52,8 +50,8 @@
             
 **What was in Interviewer’s mind while taking interview?**
   - Analyzing presence of mind 
-  - Scalality of the Programs.
-- Attidude and wllingness to learn.
+  - Scalability of the Programs.
+- Attidude and willingness to learn.
 - Analytical Skills 
  - Logic and ability to explain project 
  - Technical logic 
@@ -61,7 +59,6 @@
 - How interest originated in candidate.
 
 **What was in candidate’s mind while giving interview?**
-- Apart from technical questions asked questions on projects
 - Why questions has been stressed more on Mathematics ?
 
 
