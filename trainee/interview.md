@@ -13,13 +13,17 @@
   
   *Explanation on our approach on solving the problems.*
  - Time complexities.
+   
    *We were asked to optimize the solutions which we attemted before.*
 - Scalability of our program.
-   *Ability to change our Hackerrank programs as required.*
+  
+  *Ability to change our Hackerrank programs as required.*
 - Few problem solving challenges.
+  
   *How do we approach on solving some realtime scenario.*
 - Basics of DataStructures and DBMS.
 - Projects and Certificates.
+  
   *Academic projects and certifications in any course.*
 - Different Technologies worked with.
 
@@ -30,20 +34,25 @@
    
 **HR Round**
 - Personal Interests.
+ 
  *Hobbies.*
 - what Previous companies you've attended.
 - Stipend details.
 - Location constraints.
 - Subject Details.
+  
   *How many courses are yet to be completed?*
 - Availaibility and Personal Constraints.
+ 
  *Any personal problems on future relocating.*
     
 **Positives**
 - Challenging.
+  
   *Comparitively more of realtime scenarios.*
 - Coding logic is properely analyzed.
 - Good Pre-Placement talks.
+  
   *The team made it clear what pramati is through a clear presentation.*
 - Making the students Comfortable.
  
@@ -55,16 +64,20 @@
            
 **What was in Interviewer’s mind while taking interview?**
   - Analyzing presence of mind.
+    
     *Through puzzles.*
   - Scalability of the Programs.
   - Attitude and willingness to learn.
+    
     * Courses we are interested to learn in future.*
   - Analytical Skills.
+    
     *Based on our aptitude MCQs.*
   - Logic and ability to explain project.
   - Technical logic.
   - Approach to solve a problem.
  - How interest originated in candidate.
+     
      *What made you to join this course in VIT?*
 
 **What was in candidate’s mind while giving interview?**
