@@ -10,6 +10,7 @@
  - Based on Resume  the difficulty level of the questions differs.
  - mostly asked basics of programming.
 - Hackerrank solved  questions explanation.
+  
   *Explanation on our approach on solving the problems.*
  - Time complexities.
    *We were asked to optimize the solutions which we attemted before.*
