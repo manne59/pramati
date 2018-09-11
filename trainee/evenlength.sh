@@ -1,5 +1,10 @@
 #!/bin/sh
-filename="res.txt"
+fpath=$1 
+echo "File path is =$fpath"
+filename=$(basename "$fpath")  
+directory=$(dirname "$fpath")   
+cd ..
+cd $directory 
 cou=$(cat $filename)
 ew=0
 ow=0
@@ -12,5 +17,3 @@ ew=`expr $ew + 1`
 fi
 done
 echo "number of words in even length are $ew"
-
-
