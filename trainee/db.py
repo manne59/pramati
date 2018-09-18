@@ -21,7 +21,7 @@ print "Name ",name
 print"Email ",mail[0]
 print "Phone ",phone[0]
 
-conn = psycopg2.connect(host="localhost",database="resume",user="keer786",password="Manoharan786")
+conn = psycopg2.connect(host="localhost",database="resume",user="sindhu",password="sindhu123")
 cur = conn.cursor()
 insert="INSERT INTO resume_collect(filename,email,phone) VALUES (%s,%s,%s);"
 cur.execute(insert,data);
