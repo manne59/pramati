@@ -35,6 +35,8 @@ SELECT b.name AS "Emp_Name" FROM employee a, employee b WHERE a.emp_id = b.mgr_i
 **12.List of employees who has joined in Jan/Feb and Nov**
 select name from employee WHERE to_char(joining_date, 'mm') = '02' OR to_char(joining_date, 'mm') = '01' OR to_char(joining_date, 'mm') = '11';
 
-update employee set dept_id=0 where dept_id is null;
+**13.To replace null values in dept_id with our name**
+select emp_id,COALESCE(cast(mgr_id as varchar),'SINDHU') as DEPT_ID,salary,joining_date from employee;
+
 
 
