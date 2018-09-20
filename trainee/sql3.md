@@ -1,6 +1,6 @@
 # postgresql #
 
-** 1) SQL to find the missing ids from dept **
+**SQL to find the missing ids from dept**
 
 SELECT generate_series(
 (SELECT MIN(dept_id) FROM dept),
@@ -9,7 +9,7 @@ SELECT generate_series(
 EXCEPT SELECT dept_id FROM dept;
 
 
-** 2)  Manager Name, Reportee who joined first (Reportee Name - doj), Reportee who draws less sal (Reportee Name - salary) **
+**Manager Name, Reportee who joined first (Reportee Name - doj), Reportee who draws less sal (Reportee Name - salary)**
 
 SELECT m1.Manager_name,m1.jd,m2.sd
 FROM
