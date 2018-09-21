@@ -1,8 +1,10 @@
-#!/bin/sh
+**program to find even length words**
+```
+!/bin/sh
 fpath=$1 
 echo "File path is =$fpath"
-filename=$(basename "$fpath")  
-directory=$(dirname "$fpath")   
+filename=$(basename "$fpath") 
+directory=$(dirname "$fpath")
 cd ..
 cd $directory 
 cou=$(cat $filename)
@@ -17,3 +19,4 @@ ew=`expr $ew + 1`
 fi
 done
 echo "number of words in even length are $ew"
+```
