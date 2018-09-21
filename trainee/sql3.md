@@ -170,7 +170,7 @@ and exists(
    having count(distinct a_inr.name) > 2);
 
 
-#set-3
+# set-3
 
 **SQL to find the missing ids from dept**
 
