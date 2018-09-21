@@ -1,3 +1,5 @@
+**program to extract data from resume and store in database**
+```
 import re
 import os
 import ntpath
@@ -29,3 +31,4 @@ cur.execute(insert,data);
 conn.commit()
 conn.close()
 cur.close()
+```
