@@ -161,13 +161,13 @@ and a.joining_date>'01-01-2013'
 
 and exists(
 
-    select 1 
+   select 1 
 
-    from employee a_inr
+   from employee a_inr
 
-    where a_inr.mgr_id=a.mgr_id
+   where a_inr.mgr_id=a.mgr_id
 
-    having count(distinct a_inr.name) > 2);
+   having count(distinct a_inr.name) > 2);
 
 
 #set-3
@@ -191,34 +191,34 @@ SELECT m1.Manager_name,m1.jd,m2.sd
 
 FROM
 
-    (SELECT    DISTINCT m2.name AS Manager_name,
+   (SELECT    DISTINCT m2.name AS Manager_name,
 
-    FIRST_VALUE(CONCAT(m1.name,'-',m1.joining_date)) OVER(
+   FIRST_VALUE(CONCAT(m1.name,'-',m1.joining_date)) OVER(
 
-    PARTITION BY m1.mgr_id
+   PARTITION BY m1.mgr_id
 
-    ORDER BY m1.joining_date) AS jd
+   ORDER BY m1.joining_date) AS jd
 
-    FROM employee m1, employee m2
+   FROM employee m1, employee m2
 
-    WHERE m2.emp_id=m1.mgr_id
+   WHERE m2.emp_id=m1.mgr_id
 
-    )m1 
+   )m1 
 
 INNER JOIN
 
-    (SELECT DISTINCT m2.name AS Manager_name,
+   (SELECT DISTINCT m2.name AS Manager_name,
 
-    FIRST_VALUE(CONCAT(m1.name,'-',m1.salary)) OVER ( 
+   FIRST_VALUE(CONCAT(m1.name,'-',m1.salary)) OVER ( 
 
-    PARTITION BY m1.mgr_id 
+   PARTITION BY m1.mgr_id 
 
-    ORDER BY m1.salary) AS sd 
+   ORDER BY m1.salary) AS sd 
 
-    FROM employee m1, employee m2 
+   FROM employee m1, employee m2 
 
-    WHERE m2.emp_id=m1.mgr_id
+   WHERE m2.emp_id=m1.mgr_id
 
-    )m2
+   )m2
 
 ON m1.Manager_name=m2.Manager_name;
