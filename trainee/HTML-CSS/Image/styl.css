@@ -1,0 +1,49 @@
+
+
+.dot{
+border:thin dashed gray;
+padding-right:200px;
+width:80%;
+}
+body {
+margin: 0 auto;
+width:1000px;
+}
+.text{
+width:100%;
+}
+.text0
+{ 
+width:300px ;
+	float:left;
+	padding:1em;
+}
+.text1{
+display:inline-block;
+    width:250px;
+    padding:1em;
+
+}
+.text2{  
+    float:right;
+  width:30%;  
+ border:8px solid #99994d;
+padding:1.5em;
+background-color:#e5e5cc;
+}
+p {
+
+font-size:15px;
+
+
+}
+.group{
+width:100%;
+padding-top:1em;
+padding-left:1px;
+}
+.bottom{
+padding:1px;
+overflow:auto;	
+}
+
