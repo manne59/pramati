@@ -1,5 +1,35 @@
-
-
+.img1
+{
+padding-top: 20px;
+ left:150px;
+ height:60;
+}
+.img2{
+padding-top:20;
+float:right;
+height:20;
+}
+#i3{
+padding-left:0.5em;
+padding-right:0.5em;
+}
+a{
+color:black;
+}
+h4{
+color:green;
+}
+.link{
+padding-left:810px;
+}
+.tl1{
+padding-right:1em;
+padding-left:0em;
+}
+.tl{
+padding-right:1em;
+padding-left:0.1em;
+}
 .dot{
 border:thin dashed gray;
 padding-right:200px;
@@ -9,38 +39,51 @@ body {
 margin: 0 auto;
 width:1000px;
 }
+.read{
+padding-bottom: 5px;
+color: black;
+}
 .text{
 width:100%;
+padding-left:0.5em;
+padding-right:1em;
 }
 .text0
 { 
 width:300px ;
 	float:left;
-	padding:1em;
+	padding-left:0.5em;
+padding-right:1em;
+	border-right: thin dashed gray; 
 }
 .text1{
 display:inline-block;
     width:250px;
-    padding:1em;
+    padding-left:1em;
 
 }
 .text2{  
     float:right;
   width:30%;  
  border:8px solid #99994d;
-padding:1.5em;
+padding-left:1.5em;
+padding-right:1.5em;
 background-color:#e5e5cc;
 }
+.t2{
+padding-left:1em;
+}
+#bull
+{
+padding-right: 4px;
+}
 p {
-
 font-size:15px;
-
-
 }
 .group{
 width:100%;
 padding-top:1em;
-padding-left:1px;
+height:23em;
 }
 .bottom{
 padding:1px;
