@@ -31,16 +31,16 @@ h4 {
 	padding-left: 810px;
 }
 .home {
-	padding-right:0.3em;
+	padding-right:0.5em;
 	padding-left: 0em;
 }
 .about {
 	padding-right: 0.5em;
-	padding-left: 0.1em;
+	padding-left: 0.3em;
 }
 .idea{
 	padding-right: 1em;
-	padding-left: 0.5em;
+	padding-left: 0.9em;
 }
 .dot {
 	border: thin dashed gray;
