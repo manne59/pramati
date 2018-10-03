@@ -1,98 +1,119 @@
+
+
 .logo {
-	padding-top: 20px;
-	left: 150px;
-	height: 60;
+  padding-top: 20px;
+  left: 150px;
+  height: 60;
 }
+
 .icon_sprite {
-	padding-top: 20;
-	float: right;
-	padding-right: 45px;
+  padding-top: 20;
+  float: right;
+  padding-right: 45px;
 }
 
 .read_link {
-	float: right;
+  float: right;
 }
+
 #banner {
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	padding: 10px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding: 10px;
 }
-a{
-	color: black;
+
+a {
+  color: black;
 }
-.corner{
-	float: right;
-	padding-top: 0em;
+
+.corner {
+  float: right;
+  padding-top: 0em;
 }
+
 h4 {
-	color: green;
+  color: green;
 }
+
 .link {
-	padding-left: 810px;
+  padding-left: 810px;
 }
+
 .home {
-	padding-right:0.5em;
-	padding-left: 0em;
+  padding-right: 0.5em;
 }
+
 .about {
-	padding-right: 0.5em;
-	padding-left: 0.3em;
+  padding-right: 0.5em;
+  padding-left: 0.3em;
 }
-.idea{
-	padding-right: 1em;
-	padding-left: 0.9em;
+
+.idea {
+  padding-right: 1em;
+  padding-left: 0.9em;
 }
+
 .dashline {
-	border: thin dashed gray;
-	padding-right: 200px;
-	width: 80%;
+  border: thin dashed gray;
+  padding-right: 200px;
+  width: 82%;
 }
+
 body {
-	margin: 0 auto;
-	width: 1000px;
+  margin: 0 auto;
+  width: 1000px;
 }
+
 .read {
-	padding-bottom: 5px;
-	color: black;
+  padding-bottom: 5px;
+  color: black;
 }
+
 .text {
-	width: 100%;
-	padding-left: 0.5em;
-	padding-right: 1em;
+  width: 100%;
+  padding-left: 0.5em;
+  padding-right: 1em;
 }
+
 .text0 {
-	width: 300px;
-	float: left;
-	padding-left: 0.5em;
-	padding-right: 1em;
-	border-right: thin dashed gray;
+  width: 300px;
+  float: left;
+  padding-left: 0.5em;
+  padding-right: 1em;
+  border-right: thin dashed gray;
 }
+
 .text1 {
-	display: inline-block;
-	width: 250px;
-	padding-left: 1em;
+  display: inline-block;
+  width: 250px;
+  padding-left: 1em;
 }
+
 .text2 {
-	float: right;
-	width: 30%;
-	border: 8px solid #99994d;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
-	background-color: #e5e5cc;
+  float: right;
+  width: 30%;
+  border: 8px solid #99994d;
+  padding-left: 1em;
+  padding-right: 2em;
+  background-color: #e5e5cc;
 }
+
 .seo {
-	padding-left: 1em;
+  padding-left: 1em;
 }
+
 #bullet {
-	padding-right: 4px;
+  padding-right: 4px;
 }
+
 p {
-	font-size: 15px;
+  font-size: 15px;
 }
+
 .text_div {
-	width: 100%;
-	padding: 1em;
-	height: 23em;
+  width: 100%;
+  padding: 1em;
+  height: 23em;
 }
 
 
