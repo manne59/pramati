@@ -1,9 +1,9 @@
-.img1 {
+.logo {
 	padding-top: 20px;
 	left: 150px;
 	height: 60;
 }
-.img2 {
+.icon_sprite {
 	padding-top: 20;
 	float: right;
 	padding-right: 45px;
@@ -42,7 +42,7 @@ h4 {
 	padding-right: 1em;
 	padding-left: 0.9em;
 }
-.dot {
+.dashline {
 	border: thin dashed gray;
 	padding-right: 200px;
 	width: 80%;
