@@ -89,7 +89,6 @@ function valid() {
 			last_name + "</td><td>" +
 			email + "</td><td>" +
 			phone_number + "</td><td>" +
-			email + "</td><td>" +
 			dob + "</td></tr>";
 		$("#form_details_table tbody").append(row);
 		document.getElementById("sample_form").reset();
