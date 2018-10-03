@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="formvalid.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-2"></div>
+      <div class="col-md-9 center_div" id="div1">
+        <div class="panel panel-info">
+          <div class="panel-heading">USER FORM</div>
+          <form id="sample_form">
+            <div class="panel-body">
+              <div class="form-group row">
+                <label for="first-name" class="col-md-3">First Name:</label>
+                <input class="col-md-3" type="text" class="form-control" id="first_name" value="">
+                <span class="col-md-3 text-danger" id="first_name_error" ></span>
+              </div>
+              <div class="form-group row">
+                <label class="col-md-3" for="last-name">Last Name:</label>
+                <input class="col-md-3" type="text" class="form-control" id="last_name" value="">
+                <span class="col-md-3 text-danger" id="last_name_error" ></span>
+              </div>
+              <div class="form-group row">
+                <label class="col-md-3" for="email">Email:</label>
+                <input class="col-md-3" type="email" class="form-control" id="email" value="">
+                <span class="col-md-3 text-danger" id="email_error" ></span>
+              </div>
+              <div class="form-group row">
+                <label class="col-md-3" for="phone-number">Phone Number:</label>
+                <input class="col-md-3" type="text" class="form-control" id="phone_number" value="">
+                <span class="col-md-3 text-danger" id="phone_number_error" ></span>
+              </div>
+              <div class="form-group row">
+                <label class="col-md-3" for="dob">Date Of Birth:</label>
+                <div class="input-append date" data-date-format="mm-dd-yyyy">
+                  <input class="col-md-3" type="text" id="datepicker" value="" readonly>
+                  <span class="col-md-3 text-danger" id="dob_error" ></span>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-5"></div>
+                <button type="button" class="btn btn-info col-md-3" onclick="valid()">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <table class="table" id="form_details_table">
+      <thead>
+        <tr>
+          <th>FIRST NAME</th>
+          <th>LAST NAME</th>
+          <th>EMAIL</th>
+          <th>PHONE NUMBER</th>
+          <th>DOB</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    </div>
+  </body>
+</html>
+
+
