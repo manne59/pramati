@@ -7,18 +7,19 @@
 }
 
 .icon_sprite {
-  padding-top: 20;
+  padding: 20 30;
   float: right;
-  padding-right: 40px;
 }
 
+.icon_image{
+   padding-left: 1em;
+}
 .read_link {
   float: right;
 }
 
 #banner {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding: 0.5em 0.5em;
   padding: 10px;
 }
 
@@ -26,9 +27,15 @@ a {
   color: black;
 }
 
-.corner {
+.home_top{
+  padding: 0.5em;
+}
+
+.about_top{
+  padding: 0.5em;
+}
+.corner_bottom {
   float: right;
-  padding-top: 0em;
 }
 
 h4 {
@@ -44,13 +51,11 @@ h4 {
 }
 
 .about {
-  padding-right: 0.5em;
-  padding-left: 0.3em;
+  padding: 0.5em 0.5em;
 }
 
 .idea {
-  padding-right: 1em;
-  padding-left: 0.9em;
+  padding: 1em 0.9em;
 }
 
 .dashline {
@@ -69,32 +74,29 @@ body {
   color: black;
 }
 
-.text {
+.why_html {
   width: 100%;
-  padding-left: 0.5em;
-  padding-right: 1em;
+  padding: 0.5em 1em;
 }
 
-.text0 {
+.learn_html {
   width: 300px;
   float: left;
-  padding-left: 0.5em;
-  padding-right: 1em;
+  padding: 0.5em 1em;
   border-right: thin dashed gray;
 }
 
-.text1 {
+.learn_css {
   display: inline-block;
   width: 250px;
   padding-left: 1em;
 }
 
-.text2 {
+.why_seo {
   float: right;
   width: 30%;
   border: 8px solid #99994d;
   padding-left: 1em;
-  padding-right: 2em;
   background-color: #e5e5cc;
 }
 
@@ -106,9 +108,6 @@ body {
   padding-right: 4px;
 }
 
-p {
-  font-size: 15px;
-}
 
 .text_div {
   width: 100%;
