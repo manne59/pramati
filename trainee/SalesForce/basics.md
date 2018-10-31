@@ -50,4 +50,8 @@ https://trailhead.salesforce.com/projects/customize-a-salesforce-object/steps/pi
 
 3.proceed with same process in lighting trailhead. 
 
+**ATTRIBUTES:**
+
+1.<apex:image value=""/>
+
 
